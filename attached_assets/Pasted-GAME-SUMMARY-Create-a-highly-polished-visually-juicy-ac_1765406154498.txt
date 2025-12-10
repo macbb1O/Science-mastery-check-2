@@ -1,0 +1,490 @@
+GAME SUMMARY
+
+Create a highly polished, visually juicy, action-based educational game designed to help students master physics, chemistry, and biology topics.
+The game is divided into micro-units, where each micro-unit is its own level, challenge, or mission.
+The game should feel like a fast arcade adventure + learning tool hybrid.
+
+The design priorities are:
+
+Addictive gameplay
+
+Satisfying moment-to-moment feedback
+
+Progression via badges, coins, XP
+
+Replayability
+
+Quick learning bursts (30–60s each)
+
+🌍 CORE GAMEPLAY
+
+Players move through a world map of micro-units. Each level focuses on a specific science target.
+Levels combine:
+
+Action
+
+Physics/chemistry puzzles
+
+Reaction-time challenges
+
+Problem-solving
+
+Memory tasks
+
+Drag-and-drop interactions
+
+Mini quizzes disguised as battles
+
+Each correct answer creates exciting game feedback (screen shake, flashes, slow-mo, etc.).
+
+📚 CONTENT — MICRO-UNITS (EVERY LINE = A LEVEL)
+
+Use these learning targets as individual levels, grouped into worlds.
+
+WORLD 1 — PHYSICS: LIGHT & REFRACTION
+
+Each of these MUST be a separate level:
+
+What is refraction?
+
+What is reflection?
+
+What is albedo?
+
+Why Earth's albedo is decreasing.
+
+Why albedo matters.
+
+Snell’s Law basics. (n₁sinθ = n₂sinθ)
+
+Solve Snell’s Law #1 (angle given).
+
+Solve Snell’s Law #2 (indices given).
+
+Solve Snell’s Law #3 (identify medium).
+
+Refractive index formula (n = c/v)
+
+Calculate speed of light in medium #1 (water).
+
+Calculate refractive index of glass.
+
+Ray bending toward/away normal.
+
+Draw ray diagrams by dragging beams.
+
+Identify refraction vs reflection in scenes.
+
+Predict angle of refraction from air to water.
+
+Predict angle air → unknown medium.
+
+Predict angle air → acidic solution (n = 1.34).
+
+Light puzzle maze where beams bend correctly.
+
+WORLD 2 — CHEMISTRY: ACIDS, BASES, REACTIONS
+
+Every line = its own level:
+
+Acids & Bases
+
+Identify acids vs bases.
+
+Litmus test interpretation.
+
+Blue litmus stays blue (identify base).
+
+Red litmus turns blue (identify base).
+
+What acids dissociate into (H⁺).
+
+What bases dissociate into (OH⁻).
+
+pH ranges for acids.
+
+pH ranges for bases.
+
+Identify solution with pH = 3.
+
+Dissociation equation: H₂SO₄ → ?
+
+Identify oxyacids (ex: HNO₃).
+
+Name acids: HNO₃, HCl, H₃PO₄.
+
+Name bases: NaOH, KOH, Ba(OH)₂.
+
+Acid + base reaction: write word equation.
+
+Acid + base reaction: write chemical equation.
+
+Chemical Reactions
+
+Identify reaction types: SD, DD, Synthesis, Decomposition.
+
+Predict products: Al + CuCl₂ → ?
+
+Predict products: I₂ + KCl → ?
+
+Predict products: MgCl₂ + LiOH → ?
+
+Predict products: HNO₃ + Ba(OH)₂ → ?
+
+Predict products: Li + O₂ → ?
+
+Predict products: Al₂O₃ → ?
+
+Predict products: Na₂O + RbF → ?
+
+Predict products: Al + S → ?
+
+Predict products: CaBr₂ + Cl₂ → ?
+
+Predict products: HCl + KOH → ?
+
+Feedback Loops
+
+Water vapour & greenhouse effect.
+
+Melting permafrost & greenhouse effect.
+
+Population increase & global temperature.
+
+WORLD 3 — BIOLOGY: CELLS & ORGANELLES
+
+Prokaryotes vs eukaryotes.
+
+Identify organelles.
+
+Match organelles to functions.
+
+Organelles in plant cells only.
+
+Mitochondria function.
+
+Ribosome function.
+
+Vacuole function.
+
+Golgi apparatus function.
+
+Why Golgi = post office.
+
+Cell wall function.
+
+Cytoplasm function.
+
+Chloroplast function.
+
+3 postulates of modern cell theory.
+
+Diagram puzzle: build a cell by placing organelles.
+
+🎯 LEVEL FORMATS
+
+Each level must use one or more of:
+
+Action Interaction:
+
+Player hits the correct answer target with a dash
+
+Answer orbs appear and the player must collide with the right one
+
+Moving platforms carry answer choices
+
+Puzzle Interaction:
+
+Drag & drop items (organelles, reactants, rays)
+
+Aim a light beam and fire it to match Snell’s Law
+
+Rotate mirrors and lenses
+
+Reaction Challenges:
+
+Chain together multiple correct answers to build combos
+
+Timed sequences with rising difficulty
+
+💥 GAME JUICE (MANDATORY FOR MOMENT-TO-MOMENT FEEL)
+
+Apply ALL of these:
+
+Movement & Camera
+
+Speed lines when moving fast
+
+Camera tilt while turning
+
+Camera zoom on special actions
+
+Screen darken on big moments
+
+Soft lock-on to targets
+
+Auto-aim smoothing
+
+Hits & Impacts
+
+Screen shake: tiny, medium, big
+
+Hit flash on objects
+
+Hit stop (short freeze on impact)
+
+Slight slow-motion on big hits
+
+Knockback on enemies or objects
+
+Debris scattering on impacts
+
+“Thud” when bumping walls
+
+Player Feedback
+
+“Perfect!” “Great!” pop-ups
+
+Combo counter pop + streak glow
+
+XP bar fill animation
+
+XP overflow particle burst
+
+Rolling number counters for score
+
+Rare sparkle effects for perfect streaks
+
+Buttons & UI
+
+Button hover bounce
+
+Button glow on press
+
+Button click sound
+
+UI scale pop when menus open
+
+Fast “clack” sound swapping tabs
+
+Progress bar smoothing (ease-in-out)
+
+Inventory item rotate-on-select
+
+“New!” tag shake on items
+
+Environmental Effects
+
+Dust puffs when landing
+
+Water ripples
+
+Grass/leaves react to movement
+
+Breakable objects
+
+Sliding when momentum is high
+
+Ragdoll flop (non-graphic) for defeated objects
+
+Footstep sounds change by surface
+
+Collectibles
+
+Coin magnet pull
+
+Coin sparkle animation
+
+Rising-pitch sound when collecting multiple coins
+
+Particles trailing behind fast-moving players
+
+Loot pop-out arc animation
+
+Rare sparkle on special drops
+
+Chest opening animation (big celebration)
+
+Social / Meta
+
+Leaderboard highlight animation
+
+Friend-online ping
+
+Post-match medal animations
+
+Mini-emotes
+
+🏅 BADGE & AWARD BOOK SYSTEM
+Badge Types
+
+Completion Badges (finish a level, chapter, or world)
+
+Mastery Badges (“Perfect 10 correct answers”)
+
+Combo Badges (“20 streak hits”)
+
+Subject Badges
+
+Physics Complete
+
+Chemistry Complete
+
+Biology Complete
+
+Collector Badges
+
+Collected 100 coins
+
+Collected 500 coins
+
+Found all hidden sparkles
+
+Special Badges
+
+All Perfect Levels
+
+Speedrunner Badge
+
+Zero Mistakes Badge
+
+Reaction Master Badge
+
+Award Book Features
+
+Shows all badges (earned + locked silhouettes)
+
+Each badge has:
+
+3D spin animation
+
+Glow around rare badges
+
+Unlock animation burst
+
+Description + date earned
+
+Coin tracker with animated rolling numbers
+
+“New!” pop on newly earned badges
+
+Sort badges by:
+
+Rarity
+
+Subject
+
+Level
+
+Completion %
+
+Badge Unlock Animation
+
+When a badge is earned:
+
+Screen darkens
+
+Music swell
+
+Badge floats up
+
+Light flash synced with audio
+
+Particle burst behind it
+
+Badge spins
+
+“NEW BADGE!” text pops in with scale bounce
+
+🗺️ WORLD MAP PROGRESSION
+
+Levels grouped into Worlds (Physics → Chemistry → Biology)
+
+Each world has:
+
+A hub area
+
+Animated paths (particles)
+
+Locked gates that open with badges
+
+Floating question nodes the player selects
+
+Completing all levels unlocks a final mixed-world boss challenge
+
+🧪 EXAMPLE LEVEL DETAILS (SUPER DETAILED)
+Level 6 — Snell’s Law Basics
+
+Player controls a light beam cannon
+
+Three answer panels rotate slowly
+
+Cannon charges with anticipation animation
+
+Player fires beam → beam bends
+
+Correct → screen shake (medium), hit flash, “PERFECT!” popup
+
+Wrong → small knockback + “thud”
+
+Reward:
+
+5–20 coins
+
+XP bar fills with satisfying sound
+
+Chance for rare “Refractor Badge” drop
+
+Level 35 — Reaction Type Identification
+
+Player must smash crates labeled with reaction types
+
+Reactants appear floating in bubbles
+
+Player matches bubble to correct reaction type crate
+
+Breaking crate triggers:
+
+Burst of debris
+
+Reaction-colored particles (green for synthesis etc.)
+
+Slow-mo for 0.2 seconds
+
+Level 62 — Build-a-Cell Puzzle
+
+Drag matching organelles onto a cell body
+
+When placed correctly:
+
+Organelles bounce into position
+
+Sparkle animation
+
+Small “ding!”
+
+Cell lights up an energy pulse
+
+When cell completed:
+
+Camera zoom-out
+
+Big confetti burst
+
+Earn “Cell Architect Badge”
+
+💬 FINAL NOTE FOR BUILDER
+
+The game must feel:
+
+smooth
+
+polished
+
+rewarding
+
+full of effects
+
+fun first, learning second
+
+Education is embedded into the gameplay so students learn without feeling like they’re studying.
