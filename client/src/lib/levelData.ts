@@ -687,7 +687,7 @@ export const WORLD_INFO = {
     description: "Explore chemical reactions",
     color: "#22c55e",
     icon: "🧪",
-    requiredBadges: 1,
+    requiredBadges: 2,
   },
   biology: {
     id: "biology" as WorldId,
