@@ -697,4 +697,12 @@ export const WORLD_INFO = {
     icon: "🧬",
     requiredBadges: 0,
   },
+    linear_equation: {
+    id: "linear_equation" as WorldId,
+    name: "linear equation",
+    description: "Discover the building blocks of life",
+    color: "#F59E0B",
+    icon: "📐",
+    requiredBadges: 0,
+  },
 };
