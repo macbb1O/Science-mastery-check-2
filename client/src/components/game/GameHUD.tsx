@@ -136,7 +136,7 @@ export function GameHUD() {
             </div>
           </div>
 
-          {level && (
+          {/*level && (
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -146,7 +146,7 @@ export function GameHUD() {
                 {level.name}
               </h2>
             </motion.div>
-          )}
+          )*/}
         </div>
       </div>
 
