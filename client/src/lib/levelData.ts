@@ -662,7 +662,59 @@ export const BIOLOGY_LEVELS: Level[] = [
   },
 ];
 
-export const ALL_LEVELS: Level[] = [...PHYSICS_LEVELS, ...CHEMISTRY_LEVELS, ...BIOLOGY_LEVELS];
+export const MATH_LEVELS: Level[] = [
+  {
+    id: "math_1",
+    worldId: "math",
+    name: "Solve for x",
+    description: "Basic one-step equations",
+    type: "quiz",
+    difficulty: 1,
+    targetXP: 25,
+    targetCoins: 10,
+    questions: [
+      {
+        id: "m1_q1",
+        question: "Solve: x + 5 = 12",
+        options: ["7", "12", "17", "5"],
+        correctIndex: 0,
+      },
+      {
+        id: "m1_q2",
+        question: "Solve: 3x = 15",
+        options: ["3", "5", "8", "15"],
+        correctIndex: 1,
+      },
+    ],
+  },
+
+  {
+    id: "math_2",
+    worldId: "math",
+    name: "Two-Step Equations",
+    description: "More solving practice",
+    type: "quiz",
+    difficulty: 2,
+    targetXP: 30,
+    targetCoins: 15,
+    questions: [
+      {
+        id: "m2_q1",
+        question: "Solve: 2x + 4 = 18",
+        options: ["6", "7", "8", "10"],
+        correctIndex: 1,
+      },
+      {
+        id: "m2_q2",
+        question: "Solve: 5x - 3 = 12",
+        options: ["2", "3", "5", "6"],
+        correctIndex: 3,
+      },
+    ],
+  },
+];
+
+export const ALL_LEVELS: Level[] = [...PHYSICS_LEVELS, ...CHEMISTRY_LEVELS, ...BIOLOGY_LEVELS,...MATH_LEVELS];
 
 export const getLevelById = (id: string): Level | undefined => {
   return ALL_LEVELS.find((level) => level.id === id);
@@ -697,10 +749,10 @@ export const WORLD_INFO = {
     icon: "🧬",
     requiredBadges: 0,
   },
-    linear_equation: {
-    id: "linear_equation" as WorldId,
+   math: {
+    id: "math" as WorldId,
     name: "linear equation",
-    description: "Discover the building blocks of life",
+    description: "Solve equations and understand variable isolation",
     color: "#F59E0B",
     icon: "📐",
     requiredBadges: 0,
