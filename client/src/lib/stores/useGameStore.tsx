@@ -1,3 +1,4 @@
+import { ALL_LEVELS } from "./levelData";
 import { create } from "zustand";
 import { subscribeWithSelector } from "zustand/middleware";
 
@@ -77,6 +78,19 @@ interface GameState {
   resetGame: () => void;
 }
 
+const initialLevelProgress: Record<string, LevelProgress> = {};
+
+ALL_LEVELS.forEach((level) => {
+  initialLevelProgress[level.id] = {
+    levelId: level.id,
+    completed: false,
+    perfectScore: false,
+    bestScore: 0,
+    bestTime: 0,
+    attempts: 0,
+  };
+});
+
 const initialProgress: PlayerProgress = {
   xp: 0,
   level: 1,
@@ -87,7 +101,7 @@ const initialProgress: PlayerProgress = {
   correctAnswers: 0,
   totalAnswers: 0,
   badges: [],
-  levelProgress: {},
+  levelProgress: initialLevelProgress,
   unlockedWorlds: ["physics"],
 };
 
