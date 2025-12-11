@@ -125,6 +125,14 @@ const ALL_BADGES: Omit<Badge, "earnedAt" | "isNew">[] = [
     rarity: "legendary",
     category: "special",
   },
+  {
+  id: "linear_beginner",    
+  name: "Linear Beginner",      
+  description: "Complete 5 Linear Equations levels", 
+  icon: "📐",                  
+  rarity: "common",           
+  category: "subject",
+}
 ];
 
 const RARITY_COLORS = {
