@@ -144,7 +144,7 @@ function GameScene({ level }: { level: Level }) {
     }
 
     // Subject beginner badges
-    const subjectCount = { physics: 0, chemistry: 0, biology: 0 };
+    const subjectCount = { physics: 0, chemistry: 0, biology: 0, math: 0 };
     Object.values(progress.levelProgress).forEach((p) => {
       if (p.worldId && p.completed) subjectCount[p.worldId] = (subjectCount[p.worldId] || 0) + 1;
     });
@@ -156,6 +156,9 @@ function GameScene({ level }: { level: Level }) {
     }
     if (subjectCount.biology >= 5 && !progress.badges.some((b) => b.id === "biology_beginner")) {
       earnBadge({ id: "biology_beginner", name: "Cell Discoverer", description: "Complete 5 Biology levels", icon: "🧬", rarity: "common", category: "subject" });
+    }
+    if (subjectCount.linear >= 5 && !progress.badges.some((b) => b.id === "linear_beginner")) {
+  earnBadge({ id: "linear_beginner", name: "Linear Beginner", description: "Complete 5 Linear Equations levels", icon: "📐", rarity: "common", category: "subject",
     }
 
     // Combo badges
