@@ -751,7 +751,7 @@ export const WORLD_INFO = {
   },
    math: {
     id: "math" as WorldId,
-    name: "linear equation",
+    name: "Math: linear equation",
     description: "Solve equations and understand variable isolation",
     color: "#F59E0B",
     icon: "📐",
