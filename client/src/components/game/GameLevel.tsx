@@ -158,7 +158,7 @@ function GameScene({ level }: { level: Level }) {
       earnBadge({ id: "biology_beginner", name: "Cell Discoverer", description: "Complete 5 Biology levels", icon: "🧬", rarity: "common", category: "subject" });
     }
     if (subjectCount.linear >= 5 && !progress.badges.some((b) => b.id === "linear_beginner")) {
-  earnBadge({ id: "linear_beginner", name: "Linear Beginner", description: "Complete 5 Linear Equations levels", icon: "📐", rarity: "common", category: "subject",
+  earnBadge({ id: "linear_beginner", name: "Linear Beginner", description: "Complete 5 Linear Equations levels", icon: "📐", rarity: "common", category: "subject" }):
     }
 
     // Combo badges
